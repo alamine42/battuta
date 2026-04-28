@@ -1,0 +1,38 @@
+# dependencies
+**/node_modules
+**/dist
+**/build
+**/.turbo
+**/.next
+**/.cache
+
+# logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+.DS_Store
+
+# bun / vite
+.bun
+**/.vite
+**/.vitest
+
+# generated
+*.tsbuildinfo
+**/coverage
