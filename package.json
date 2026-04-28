@@ -1,0 +1,16 @@
+{
+  "name": "battuta",
+  "version": "0.0.1",
+  "description": "Battuta — web-based Arabic-learning RPG for diaspora kids. Monorepo root.",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "bun --filter='*' typecheck",
+    "dev": "bun --filter='@battuta/game' dev",
+    "build": "bun --filter='*' build"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@battuta/schemas",
+  "version": "0.0.1",
+  "description": "Shared zod schemas for content and API contracts.",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./quest": "./src/quest.ts",
+    "./transcribe": "./src/transcribe.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
