@@ -36,3 +36,6 @@
 # generated
 *.tsbuildinfo
 **/coverage
+
+# session handover (per-session, not committed)
+HANDOVER.md
